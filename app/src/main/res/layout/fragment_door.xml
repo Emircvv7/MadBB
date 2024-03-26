@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EFEF"
+    android:orientation="horizontal"
+    tools:context=".DoorFragment">
+
+    <LinearLayout
+        android:id="@+id/container5"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:paddingLeft="30sp"
+            android:text="Подъезд 1"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/img_1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container4"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/rounded_corners">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:paddingLeft="30sp"
+            android:text="Выход на пожарную лестницу"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/img_1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container3"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/rounded_corners">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:paddingLeft="30sp"
+            android:text="Подъезд 2"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/img_1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container2"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/rounded_corners">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:paddingLeft="30sp"
+            android:text="Домофон"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/img_1" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/your_imageview_id"
+        android:background="@drawable/img_2"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:visibility="invisible" />
+</FrameLayout>
